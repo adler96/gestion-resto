@@ -46,6 +46,10 @@ public class Produit {
 	public void affiche(){
 		System.out.println("je teste gi sur desktop");
 	}
+
+	public int ajouter(int a, int b) {
+		return a + b;
+	}
 	
 	
 }
