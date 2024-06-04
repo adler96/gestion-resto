@@ -23,7 +23,7 @@ public class VenteCService {
         cb.conn();
         
         //Requete
-        String req = "INSERT INTO venteP(id, prixU, tel, numeroC, dateC, article) VALUES ('"+vc.getId()+"', '"+vc.getPrixU()+"','"+vc.getTel()+"',  '"+vc.getNumeroC()+"', '"+vc.getDateC()+"', '"+vc.getArticle()+"') ";
+        String req = "INSERT INTO venteC(id, prixU, tel, numeroC, dateC, article) VALUES ('"+vc.getId()+"', '"+vc.getPrixU()+"','"+vc.getTel()+"',  '"+vc.getNumeroC()+"', '"+vc.getDateC()+"', '"+vc.getArticle()+"') ";
         
         try {
             cb.st.executeUpdate(req);
