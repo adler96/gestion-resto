@@ -43,6 +43,9 @@ public class Produit {
 	public void setLibelle(String libelle) {
 		this.libelle = libelle;
 	}
+	public void affiche(){
+		System.out.println("je teste gi sur desktop");
+	}
 	
 	
 }
