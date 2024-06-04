@@ -47,8 +47,8 @@ public class Produit {
 		System.out.println("je teste gi sur desktop");
 	}
 
-	public int ajouter(int a, int b) {
-		return a + b;
+	public int multiplier(int a, int b) {
+		return a * b;
 	}
 	
 	
