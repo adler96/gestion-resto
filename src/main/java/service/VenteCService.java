@@ -80,7 +80,7 @@ public class VenteCService {
 	    cb.conn();
 	        
 	    //Requete
-	    String req = "SELECT * FROM venteC ORDER BY dateVSP ";
+	    String req = "SELECT * FROM venteC ORDER BY dateC ";
 	        
 	    try {
             rs = cb.st.executeQuery(req);
